@@ -1,0 +1,32 @@
+.sale-object {
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    z-index: 2;
+    border-top: 5px solid darkorange;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.sale-object > div > button.slick-arrow,
+.sale-object > div > button.slick-arrow:before {
+    z-index: 5;
+    color: darkorange;
+}
+
+.loader {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.house-details {
+    list-style: none;
+    padding-left: 0;
+}
+
+.house-details > li {
+    font-size: .9em;
+}
