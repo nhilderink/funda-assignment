@@ -1,6 +1,6 @@
 ## DEMO
 Demo at 
-http://tall-games.surge.sh
+http://tall-game.surge.sh
 
 ## TODO
 * Keep house marker properly centered when screen size changes
