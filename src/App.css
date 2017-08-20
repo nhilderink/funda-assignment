@@ -29,4 +29,10 @@ body {
   div.mapElement {
     height: 500px;
   }
+  div.slick-slider {
+    width: 90%;
+  }
+  img.slickImage {
+    width: 100%;
+  }
 }

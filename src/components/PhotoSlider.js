@@ -1,7 +1,7 @@
 // Libs
 import React, {Component} from 'react';
 import Slider from 'react-slick';
-
+import './PhotoSlider.css';
 
 export default class PhotoSlider extends Component {
 
@@ -22,7 +22,7 @@ export default class PhotoSlider extends Component {
 
     return (
       <Slider {...this.settings} >
-        {images.map(src => <div key={src}><img src={src} width={300} alt="" /></div>)}
+        {images.map(src => <div key={src}><img src={src} className="slickImage" alt="" /></div>)}
       </Slider>
     )
   }
