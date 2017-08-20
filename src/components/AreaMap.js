@@ -2,6 +2,9 @@
 import React from 'react';
 import {withGoogleMap, GoogleMap, Marker} from 'react-google-maps';
 
+// Styles
+import './AreaMap.css';
+
 
 const AreaMap = withGoogleMap(props => (
   <GoogleMap

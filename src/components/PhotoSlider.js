@@ -22,7 +22,7 @@ export default class PhotoSlider extends Component {
 
     return (
       <Slider {...this.settings} >
-        {images.map(src => <div key={src}><img src={src} alt="" /></div>)}
+        {images.map(src => <div key={src}><img src={src} width={300} alt="" /></div>)}
       </Slider>
     )
   }

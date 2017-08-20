@@ -44,8 +44,8 @@ class App extends Component {
 
         {!loading &&
         <AreaMap
-          containerElement={<div style={{height: `100%`}}/>}
-          mapElement={<div style={{height: `100%`}}/>}
+          containerElement={<div className="containerElement"/>}
+          mapElement={<div className="mapElement"/>}
           onMapLoad={_.noop}
           onMapClick={_.noop}
           centerOn={{lat: data.WGS84_Y, lng: data.WGS84_X}}
