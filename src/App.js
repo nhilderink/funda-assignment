@@ -19,9 +19,7 @@ class App extends Component {
 
     const objectId = "6289a7bb-a1a8-40d5-bed1-bff3a5f62ee6";
     const apiKey = "005e7c1d6f6c4f9bacac16760286e3cd";
-    const apiUrl = (process.env.NODE_ENV === "development")
-      ? "/test_data/data.json"
-      : `http://partnerapi.funda.nl/feeds/Aanbod.svc/json/detail/${apiKey}/koop/${objectId}/`;
+    const apiUrl = "/test_data/data.json";
 
     this.state = {loading: true};
 
