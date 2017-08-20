@@ -4,13 +4,15 @@
     top: 0;
     bottom: 0;
     right: -270px;
-    z-index:2;
+    z-index:6;
 }
 
 .details-list {
     background-color: white;
     border-left: 1px solid darkorange;
-    height: 100%;
+    border-bottom: 1px solid darkorange;
+    border-bottom-left-radius: 5px;
+    height: 700px;
     float: left;
     width: 249px;
     margin: 0;

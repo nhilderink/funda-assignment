@@ -30,7 +30,8 @@ export default class Details extends Component {
   }
 
   resizeSideBar() {
-    let {height} = document;
+    let height = window.innerHeight;
+    console.log(height);
     TweenMax.set(this.refs.sidebar, {height})
   }
 
