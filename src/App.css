@@ -27,6 +27,6 @@ body {
   }
   div.containerElement,
   div.mapElement {
-    height: 80%;
+    height: 500px;
   }
 }

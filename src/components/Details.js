@@ -29,6 +29,19 @@ export default class Details extends Component {
     ]
   }
 
+  resizeSideBar() {
+    let {height} = document;
+    TweenMax.set(this.refs.sidebar, {height})
+  }
+
+  componentWillMount() {
+    window.addEventListener('resize', this.resizeSideBar.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resizeSideBar.bind(this));
+  }
+
   toggleSidebar() {
     let {collapsed} = this.state;
     if (collapsed) {
