@@ -30,3 +30,12 @@
 .house-details > li {
     font-size: .9em;
 }
+
+.slick-prev,
+.slick-next {
+    z-index: 5;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
